@@ -1,0 +1,20 @@
+body {
+  background-color: #f9f6f3;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #111;
+}
+
+.card-img-top {
+  border-radius: 0;
+  object-fit: cover;
+  height: 250px;
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.03);
+}
+
+.card-body p {
+  margin-top: 0.5rem;
+}
